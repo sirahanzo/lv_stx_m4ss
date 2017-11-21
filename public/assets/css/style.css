@@ -1,0 +1,175 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+#logo_stu_center{
+    width: 300px;
+    font-size: 40px;
+}
+
+#stn100ms{
+    font-family: "Colonna MT";
+}
+.card-block, .card-footer, .card-header {
+    padding: .5rem;
+}
+
+/*CUSTOM NAVBAR*/
+#top-navbar{
+    background: #ff5722 ;
+    border-bottom: 1px solid #ff5722;
+}
+
+
+/*THERMOMETER CSS*/
+
+.donation-meter {
+    margin-left: 30px;
+    width: 100px;
+
+}
+.donation-meter .glass {
+    background: #e5e5e5;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 200px;
+    margin: 0 35px 10px;
+    padding: 5px;
+    position: relative;
+    width: 20px;
+}
+.donation-meter .amount {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    width: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+.donation-meter strong {
+    display: block;
+    text-align: center;
+}
+.donation-meter .goal {
+    font-size: 30px;
+}
+.donation-meter .total {
+    font-size: 16px;
+    position: absolute;
+    right: 35px;
+    width: 70px;
+}
+
+.bulb {
+    background: #e5e5e5;
+    border-radius: 100px;
+    display: block;
+    height: 50px;
+    margin: 0 35px 10px;
+    padding: 5px;
+    position: relative;
+    top: -20px;
+    right: 15px;
+    width: 50px;
+}
+.bulb .red-circle {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.bulb .filler {
+    background: #f34e54;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 25px;
+    width: 10px;
+    position: relative;
+    top: -50px;
+    right: -15px;
+    z-index: 30;
+
+}
+.donation-meter .ticks {
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    color:grey;
+}
+
+
+/*BLINK*/
+.blink {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.blink2 {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.blink3 {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 9.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 9.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 9.0; }
+}
